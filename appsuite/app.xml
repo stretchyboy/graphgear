@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<graph title="Graph Title" mass="4" resistance="30" repelforce="20" springforce="20" segmentlength="15" bgcolor="f5f5f5" hidelabels="true" linecolor="cccccc" viewmode="display" width="725" height="400" animation="true">
+     <node id="n1" scale="100" text="Node N1" color="ffffff" textcolor="000000"/>
+     <node id="n2" scale="80" text="Node N2" color="eeeeee" textcolor="000000"/>
+     <node id="n3" scale="80" text="Node N3" color="eeeeee" textcolor="000000"/>
+     <node id="n4" scale="80" text="Node N4" color="eeeeee" textcolor="000000"/>
+     <node id="n5" scale="80" text="Node N5" color="eeeeee" textcolor="000000"/>
+     <node id="n6" scale="80" text="Node N6" color="eeeeee" textcolor="000000"/>
+
+     <node id="n7" scale="60" text="Node N7" color="cccccc" textcolor="000000"/>
+     <node id="n8" scale="60" text="Node N8" color="cccccc" textcolor="000000"/>
+     <node id="n9" scale="60" text="Node N9" color="cccccc" textcolor="000000"/>
+
+     <node id="n10" scale="60" text="Node N10" color="cccccc" textcolor="000000"/>
+     <node id="n11" scale="60" text="Node N11" color="cccccc" textcolor="000000"/>
+     <node id="n12" scale="60" text="Node N12" color="cccccc" textcolor="000000"/>
+
+     <node id="n13" scale="40" text="Node N13" color="aaaaaa" textcolor="000000"/>
+     <node id="n14" scale="40" text="Node N14" color="aaaaaa" textcolor="000000"/>
+
+     <node id="n15" scale="40" text="Node N15" color="aaaaaa" textcolor="000000"/>
+
+     <node id="n16" scale="60" text="Node N10" color="cccccc" textcolor="000000"/>
+     <node id="n17" scale="60" text="Node N11" color="cccccc" textcolor="000000"/>
+     <node id="n18" scale="60" text="Node N12" color="cccccc" textcolor="000000"/>
+
+     <node id="n19" scale="40" text="Node N13" color="aaaaaa" textcolor="000000"/>
+     <node id="n20" scale="40" text="Node N14" color="aaaaaa" textcolor="000000"/>
+
+     <edge sourceNode="n1" targetNode="n2" label="" textcolor="555555"/>
+     <edge sourceNode="n1" targetNode="n3" label="" textcolor="555555"/>
+     <edge sourceNode="n1" targetNode="n4" label="" textcolor="555555"/>
+     <edge sourceNode="n1" targetNode="n5" label="" textcolor="555555"/>
+     <edge sourceNode="n1" targetNode="n6" label="" textcolor="555555"/>
+
+     <edge sourceNode="n3" targetNode="n7" label="" textcolor="555555"/>
+     <edge sourceNode="n3" targetNode="n8" label="" textcolor="555555"/>
+     <edge sourceNode="n3" targetNode="n9" label="" textcolor="555555"/>
+
+     <edge sourceNode="n5" targetNode="n10" label="" textcolor="555555"/>
+     <edge sourceNode="n5" targetNode="n11" label="" textcolor="555555"/>
+     <edge sourceNode="n5" targetNode="n12" label="" textcolor="555555"/>
+
+     <edge sourceNode="n8" targetNode="n13" label="" textcolor="555555"/>
+     <edge sourceNode="n8" targetNode="n14" label="" textcolor="555555"/>
+     <edge sourceNode="n8" targetNode="n15" label="" textcolor="555555"/>
+
+     <edge sourceNode="n4" targetNode="n16" label="" textcolor="555555"/>
+     <edge sourceNode="n4" targetNode="n17" label="" textcolor="555555"/>
+     <edge sourceNode="n4" targetNode="n18" label="" textcolor="555555"/>
+
+     <edge sourceNode="n17" targetNode="n19" label="" textcolor="555555"/>
+     <edge sourceNode="n17" targetNode="n20" label="" textcolor="555555"/>
+
+</graph>
