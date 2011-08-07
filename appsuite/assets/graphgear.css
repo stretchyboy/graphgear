@@ -1,0 +1,37 @@
+body {
+	background:#aaa;
+}
+
+div#wrap {
+	font-family:Helvetica, Arial, sans-serif;
+	width:960px; 
+	margin:2em auto; 
+	padding:1em; 
+	border:1px solid #ccc; 
+	background:#fff;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+div#wrap h1 {
+	font-family:Helvetica, Arial, sans-serif;
+	line-height:0.6em;
+}
+
+div#gearspace {
+	float:left; padding:0.2em;
+}
+
+div#infospace {
+	font-size:1em; padding:1em; 
+	font-family:Helvetica, Arial, sans-serif; 
+	float:left; width:190px;
+}
+
+div#inforspace h2 {
+		font-family:Helvetica, Arial, sans-serif;
+		line-height:0.6em;
+		font-size:1em;
+}
