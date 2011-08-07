@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Graph Gear App</title>
+
+<link rel="stylesheet" type="text/css" media="screen" href="assets/graphgear.css" />
+<script type="text/javascript" src="assets/swfobject/swfobject.js"></script>
+<script type="text/javascript" src="assets/graphgear.js"></script>
+
+</head>
+
+<body>
+	<div id="wrap">
+		<h1> Now Graphing: &rarr; &#8220;<span>Graph Title</span>&#8221; </h1>
+		
+		<div id="gearspace">
+			<strong>You need to upgrade your Flash Player</strong>
+		</div>
+		<div id="infospace">
+			<strong><h2>Select a Node</h2>And something will happen.</strong>
+		</div>
+		<div style="clear:both;"></div>
+
+		
+		<script type="text/javascript">
+			// <![CDATA[		
+			var so = new SWFObject("assets/GraphGear.swf", "graphgear", "725", "400", "8");
+			so.addVariable("graphXMLFile", "app.xml"); // rename to your xml file
+			so.addParam("allowScriptAccess", "always");
+			so.addParam("scale", "exactfit")
+		   
+			so.addParam("salign", "tl");
+			so.write("gearspace");
+			setSegmentLength(0);		
+			// ]]>
+		</script>
+
+		<p>Additional information about this graph. &bull; <a href="http://code.google.com/p/graphgear/">Find more at the Graph Gear Project</a></p>
+</div>
+</body>
+</html>
