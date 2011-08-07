@@ -20,7 +20,20 @@ function jsLiveXML(newXMLString) {
 	flashMovie.liveXML(newXMLString);
 }
 
+
 function addNode(jId,jNodeType,jNodeCluster,jNodeText,jLinkValue,jImageValue,jScaleValue,jTextColor,jBackgroundColor,jEdgeId,jTarget,jLabel,jLabelColor) {
 	flashMovie = document.getElementById("graphgear");
 	flashMovie.jsAddNode(jId,jNodeType,jNodeCluster,jNodeText,jLinkValue,jImageValue,jScaleValue,jTextColor,jBackgroundColor,jEdgeId,jTarget,jLabel,jLabelColor);
+}
+
+function addJustNode(jId,jNodeType,jNodeCluster,jNodeText,jLinkValue,jImageValue,jScaleValue,jTextColor,jBackgroundColor)
+{
+	flashMovie = document.getElementById("graphgear");
+	flashMovie.jsAddJustNode(jId,jNodeType,jNodeCluster,jNodeText,jLinkValue,jImageValue,jScaleValue,jTextColor,jBackgroundColor);
+}
+
+function addAddEdge(jId,jTarget,jLabel,jLabelColor)
+{
+	flashMovie = document.getElementById("graphgear");
+	flashMovie.jsAddEdge(jId,jTarget,jLabel,jLabelColor);
 }
